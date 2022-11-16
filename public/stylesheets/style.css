@@ -1,0 +1,55 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar{
+  background-color: #eb3636;
+  position: inherit;
+}
+
+h2.card-title{
+  background-color: #2a5356;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #197d82;
+}
+
+.badge-pill{
+  background-color: #eb3636;
+}
+
+.badge-warning{
+  margin: 2px;
+}
+.btn-primary{
+  padding: auto;
+  background-color: #921e1e;
+  border-radius: 10px;
+  border-style: none;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+.card{
+  background-color: #2d959c;
+  border-style: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
