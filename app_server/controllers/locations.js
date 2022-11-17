@@ -5,7 +5,26 @@ const homelist = (req, res) => {
       pageHeader: {                                               
         title: 'Loc8r ',                                           
         strapline: 'Find places to work with wifi near you!'      
-      }                                                           
+      },
+      locations: [{
+        name:'Starcups',
+        address: '3322 Olympic drive Naples FL',
+        rating: 3,
+        facilities: ['Hot Drinks', 'Food', 'Premium wifi'],
+        distance: '100'
+      }, {
+        name:'Cafe hero',
+        address: '14228 Chestnut Ridge Rd',
+        rating: 3,
+        facilities: ['Hot Drinks', 'Food', 'Premium wifi'],
+        distance: '200'
+      }, {
+        name:'Burger Queen',
+        address: '125 High Street, reading, RG6 1PS',
+        rating: 2,
+        facilities: ['Food', 'Premium wifi'],
+        distance: '250'
+      }]
     });
   };
 
