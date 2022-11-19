@@ -15,13 +15,13 @@ const homelist = (req, res) => {
       }, {
         name:'Cafe hero',
         address: '14228 Chestnut Ridge Rd',
-        rating: 3,
+        rating: 5,
         facilities: ['Hot Drinks', 'Food', 'Premium wifi'],
         distance: '200'
       }, {
         name:'Burger Queen',
         address: '125 High Street, reading, RG6 1PS',
-        rating: 2,
+        rating: 1,
         facilities: ['Food', 'Premium wifi'],
         distance: '250'
       }]
