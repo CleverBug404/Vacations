@@ -26,6 +26,7 @@ mongoose.connection.on('disconnected', () => {
 
 const gracefulShutdown = (msg, callback) => {
     mongoose.connection.close( () => {
+        console.log(`Mongoose disconnected through ${msg}`);
         callback();
     });
 };
@@ -46,7 +47,7 @@ process.on('SIGTERM', () => {
     });
 });
 
-require('./locations');
+require('../controllers/locations.js');
 
 
 
