@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const readLine = require('readline');
+
 if (process.platform === 'win32'){
     const rl = readLine.createInterface({
         input: process.stdin,
@@ -48,6 +49,6 @@ process.on('SIGTERM', () => {
 });
 
 require('../controllers/locations.js');
-
+require('./locations');
 
 
